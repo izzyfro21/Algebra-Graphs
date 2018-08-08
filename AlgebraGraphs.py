@@ -4,7 +4,7 @@
 from matplotlib import pyplot as plt
 import math
 
-
+#This function creates a quadratic equation
 def QuadraticEquation():
   abc = str(raw_input(
       "In the equation y= ax^2+bx+c, what is a, b, and c (display split each answer up by one space. EX: 1 4 5): "))
@@ -30,7 +30,7 @@ def QuadraticEquation():
   plt.plot(x, y, color="green")
   plt.show()
 
-
+#This function creates am Exponential equation
 def ExponentialEquation():
   print("For the equation y = (a^x)+bx+c")
   abc = str(raw_input("What are a, b, and c (EX: 1 2 3): "))
@@ -55,7 +55,7 @@ def ExponentialEquation():
   plt.show()
   print(x)
 
-
+#This function creates a linear equation
 def LinearEquation():
   print("For the equation y = mx+b")
   mb = str(raw_input("What are m and b (EX: 1 2): "))
