@@ -60,7 +60,7 @@ def LinearEquation():
   print("For the equation y = mx+b")
   mb = str(raw_input("What are m and b (EX: 1 2): "))
   x_axis = int(input(
-      "What is the maximum size of the graph you would like (in units EX: 10)"))
+      "What is the maximum size of the graph you would like (in units EX: 10): "))
 
   m, b = mb.split()
   m = int(m)
