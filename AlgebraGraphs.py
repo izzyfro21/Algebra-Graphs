@@ -35,7 +35,7 @@ def ExponentialEquation():
   print("For the equation y = (a^x)+bx+c")
   abc = str(raw_input("What are a, b, and c (EX: 1 2 3): "))
   x_axis = int(input(
-      "What is the maximum size of the graph you would like (in units EX: 10): "))*2
+      "What is the maximum size of the graph you would like (in units EX: 10): "))
 
   aa, bb, cc = abc.split()
   a = int(aa)
