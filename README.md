@@ -13,6 +13,6 @@
 4. Lastly, The program will output the graphs using matplotlib.
 
 
-#### You Need [blank] intalled
+#### You Need these intalled:
 - python3
 - matplotlib
